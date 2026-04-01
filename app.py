@@ -6,6 +6,14 @@ from rdkit.Chem import Draw
 st.set_page_config(page_title="Brucine Chirality Analyzer", page_icon="🧪", layout="centered")
 
 st.title("🧪 Brucine Chirality Analyzer")
+
+# Student Details
+st.markdown("""
+### 👨‍🎓 Student Details
+**NAME:** NALLA HARI HARA KRISHNA  
+**REGISTER NUMBER:** RA2511026050036
+""")
+
 st.markdown("Welcome to the **Brucine Chirality Analyzer**! This educational web app calculates and identifies all chiral centers in the chemical compound **Brucine**.")
 st.markdown("---")
 
